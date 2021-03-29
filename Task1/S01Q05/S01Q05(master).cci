@@ -1,0 +1,8 @@
+VERSION:3 SOURCE_TIMESTAMP:527C8CC5
+NODE:I LEVEL:0 LINE:10 "G:\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:11 "G:\cvavr\inc\stdio.h"
+NODE:I LEVEL:0 LINE:12 "G:\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:14 "i -> R4,R5"
+NODE:V LEVEL:0 LINE:15 "data -> RAM:????"
+NODE:V LEVEL:0 LINE:16 "s -> RAM:????"
+NODE:F LEVEL:0 LINE:17 "main(void)"
