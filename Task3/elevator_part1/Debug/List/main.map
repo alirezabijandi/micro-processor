@@ -1,0 +1,30 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+number                                                                            0x0260      10
+z                                                                                 0x026A       2
+tabaga                                                                            0x026C       2
+target                                                                            0x026E      42
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+a                                                                                 R4,R5        2
+b                                                                                 R6,R7        2
+flor                                                                              R8,R9        2
+hadaf                                                                             R10,R11      2
+i                                                                                 R12,R13      2
+press                                                                             R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+show                                                                              0x00068     47
+wait                                                                              0x00097     28
+open                                                                              0x000B3     12
+process                                                                           0x000BF     53
+main                                                                              0x000F4    145
