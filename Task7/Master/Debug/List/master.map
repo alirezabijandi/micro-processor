@@ -1,0 +1,59 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+log_id                                                                            0x052C       2
+c                                                                                 0x052E      20
+id                                                                                0x0542      40
+pass                                                                              0x056A      40
+check                                                                             0x0592       4
+year                                                                              0x0596       2
+mounth                                                                            0x0598       2
+day                                                                               0x059A       2
+hour                                                                              0x059C       2
+minute                                                                            0x059E       2
+_base_y                                                                           0x05A0       4
+_lcd_x                                                                            0x05A4       1
+_lcd_y                                                                            0x05A5       1
+_lcd_maxx                                                                         0x05A6       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+x                                                                                 R4,R5        2
+pos_x                                                                             R6,R7        2
+pos_y                                                                             R8,R9        2
+i                                                                                 R10,R11      2
+j                                                                                 R12,R13      2
+press                                                                             R2.0      1bit
+new_id                                                                            R2.1      1bit
+new_pass                                                                          R2.2      1bit
+break_mode                                                                        R2.3      1bit
+error                                                                             R2.4      1bit
+id_chk                                                                            R2.5      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+show                                                                              0x0020A    228
+keyboard                                                                          0x002EE    108
+main                                                                              0x0035A    566
+_lcd_write_nibble_G100                                                            0x00590     21
+_lcd_write_data                                                                   0x005A5     13
+lcd_gotoxy                                                                        0x005B2     17
+lcd_clear                                                                         0x005C3     14
+lcd_putchar                                                                       0x005D1     34
+lcd_puts                                                                          0x005F3     11
+lcd_init                                                                          0x005FE     47
+getchar                                                                           0x0062D      4
+putchar                                                                           0x00631      7
+puts                                                                              0x00638     14
+gets                                                                              0x00646     47
+put_buff_G101                                                                     0x00675     64
+_print_G101                                                                       0x006B5    308
+sprintf                                                                           0x007E9     52
+strlen                                                                            0x0081D     12
+strlenf                                                                           0x00829     13
